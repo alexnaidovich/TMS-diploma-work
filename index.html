@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Ramble by Alex Naidovich</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400, 700" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/FontAwesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+   <div id="wrapper">
+       <div id="ontop"></div>
+        <header>
+            <div class="headerTop">
+                <div class="headerTopContent">
+                    <div class="headerSearchbar">
+                        <input type="search" placeholder="Search Here...">
+                        <span class="fa fa-search"></span>
+                    </div>
+                    <div class="headerSocial">
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-behance"></span></a>
+                        <a href="#"><span class="fa fa-google-plus"></span></a>
+                        <a href="#"><span class="fa fa-pinterest-p"></span></a>
+                        <a href="#"><span class="fa fa-instagram"></span></a>
+                        <a href="#"><span class="fa fa-dribbble"></span></a>
+                    </div>
+                </div>
+            </div>
+            
+<!--            MOBILE HEADER-TOP  -->
+           
+           <div class="headerTopMobile">
+               <div class="mobileMenuButton">
+                   <button type="button" onclick="openNav()"><span class="fa fa-bars"></span></button>
+               </div>
+               <div class="mobileSearchButton">
+                   <button type="button" onclick="openNav2()"><span class="fa fa-search"></span></button>
+               </div>
+           </div>
+           
+<!--           LOGO BOX   -->
+           
+            <div class="headerMiddle">
+                <div class="rambleBox">
+                    <div class="rambleLogo">
+                        <a href="#"><img alt="" src="img/logo.png"></a>
+                    </div>
+                    
+                    <div class="rambleMenu">
+                        <nav>
+                            <ul class="hoverDropdown">
+                                <li class="drpdButton db1"><a href="#">home<span class="fa fa-angle-down"></span></a>
+                                    <div class="drpdContent dc1">
+                                        <a href="#">Home One</a>
+                                        <a href="#">Home Two</a>
+                                        <a href="#">Home Three</a>
+                                        <a href="#">Home Four</a>
+                                        <a href="#">Home Five</a>
+                                        <a href="#">Home Six</a>
+                                        <a href="#">Home Seven</a>
+                                        <a href="#">Home Eight</a>
+                                    </div>
+                                </li>
+                                <li class="drpdButton db2"><a href="#">features<span class="fa fa-angle-down"></span></a>
+                                    <div class="drpdContent dc2">
+                                        <div>
+                                            <a href="#" class="menuHeading">Featured style</a>
+                                            <span class="menuDivider1"></span>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Featured Style One</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Featured Style Two</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Featured Style Three</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Featured Style Four</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Featured Style Five</a>
+                                                                    
+                                        </div>
+                                        <div>
+                                            <a href="#" class="menuHeading">Post format</a>
+                                            <span class="menuDivider1"></span>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Standart Post</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Link Post</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Video Post</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Audio Post</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Quote Post</a>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="menuHeading">Shop page layout</a>
+                                            <span class="menuDivider1"></span>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Product Single Page</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Cart Page</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Checkout Page</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Product Category Page</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Login Page</a>
+                                        </div>
+                                        <div>
+                                            <a href="#" class="menuHeading">Other page layout</a>
+                                            <span class="menuDivider1"></span>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Single Post Left Sidebar</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Single Post Right Sidebar</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Single Post Full-width</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Single Post Full-width 2</a>
+                                            <a href="#"><span class="fa fa-angle-right"></span>Category Page</a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="drpdButton db3"><a href="#">extra<span class="fa fa-angle-down"></span></a>
+                                    <div class="drpdContent dc3"></div></li>
+                                <li class="drpdButton db4"><a href="#">travel<span class="fa fa-angle-down"></span></a>
+                                    <div class="drpdContent dc4"></div>
+                                </li>
+                                <li class="drpdButton db5"><a href="#">lifestyle<span class="fa fa-angle-down"></span></a>
+                                    <div class="drpdContent dc5"></div>
+                                </li>
+                                <li><a href="#">music</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    
+<!--                    @ Mobile Menu   -->
+                   
+                   <div id="ovrl"></div>
+                   <div class="mobileMenu" id="sidenav">
+                       
+                       <nav>
+                           <ul>
+                                <a href="javascript:void(0)" class="closebtn" id="cls" onclick="closeNav()"><i class="fa fa-spin fa-times" aria-hidden="true"></i></a>
+                                <li><a href="#">home<span class="fa fa-plus accordion"></span></a>
+                                </li>
+                                <li><a href="#">features<span class="fa fa-plus accordion"></span></a></li>
+                                <li><a href="#">extra<span class="fa fa-plus accordion"></span></a></li>
+                                <li><a href="#">travel<span class="fa fa-plus accordion"></span></a></li>
+                                <li><a href="#">lifestyle</a></li>
+                                <li><a href="#">music</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">contact</a></li>
+                            </ul>
+                       </nav>
+                       
+                   </div>
+                   <script>
+                       function openNav() {                                document.getElementById("sidenav").style.width = "240px";
+                        document.getElementById("cls").style.display = "block";
+                       document.getElementById("ovrl").style.display = "block";                    
+                       }
+
+                       function closeNav() {                        document.getElementById("sidenav").style.width = "0";                                             document.getElementById("cls").style.display = "none";
+                       document.getElementById("ovrl").style.display = "none"; 
+                       }
+                    </script>
+                    
+<!--                    @ Mobile Search   -->
+
+                   <div id="ovrl2"></div>
+                   <div class="mobileSearch" id="sideSearch">
+                       <a href="javascript:void(0)" class="closebtn" id="cls2" onclick="closeNav2()"><i class="fa fa-spin fa-times" aria-hidden="true"></i></a>
+                       
+                       <div class="headerSearchbar mobileSearchbar">
+                        <input type="search" placeholder="Search Here...">
+                        <button type="submit"><span class="fa fa-search"></span></button>
+                    </div>
+                    <div class="mobileAvatarBox">
+                    <span><img alt="" src="img/avatar.jpg" width="124" height="124"></span>
+                    <h3>Alex Naidovich</h3>
+                    <p>Junior Web Developer</p>
+                    <p>Gaining skills at TMS</p>
+                    <div>
+                       <a href="#">
+                           <i class="fa fa-facebook"></i>
+                       </a>
+                       <a href="#">
+                           <i class="fa fa-twitter"></i>
+                       </a>
+                       <a href="#">
+                           <i class="fa fa-behance"></i>
+                       </a>
+                       <a href="#">
+                           <i class="fa fa-instagram"></i>
+                       </a>
+                       <a href="#">
+                           <i class="fa fa-dribbble"></i>
+                       </a>
+                    </div>
+                </div>
+
+                   </div>
+                   <script>
+                       function openNav2() {                                document.getElementById("sideSearch").style.width = "270px";
+                        document.getElementById("cls2").style.display = "block";
+                       document.getElementById("ovrl2").style.display = "block";                    
+                       }
+
+                       function closeNav2() {                        document.getElementById("sideSearch").style.width = "0";                                             document.getElementById("cls2").style.display = "none";
+                       document.getElementById("ovrl2").style.display = "none"; 
+                       }
+                    </script>
+
+<!--                    @ Mobile Socials   -->
+                    
+                    <div class="mobileSocials">
+                        <a href="#"><span class="fa fa-facebook"></span></a>
+                        <a href="#"><span class="fa fa-twitter"></span></a>
+                        <a href="#"><span class="fa fa-behance"></span></a>
+                        <a href="#"><span class="fa fa-google-plus"></span></a>
+                        <a href="#"><span class="fa fa-pinterest-p"></span></a>
+                        <a href="#"><span class="fa fa-instagram"></span></a>
+                        <a href="#"><span class="fa fa-dribbble"></span></a>
+                    </div>
+                </div>
+                <div class="avatarBox">
+                    <span><img alt="" src="img/avatar.jpg" width="124" height="124"></span>
+                    <h3>Alex Naidovich</h3>
+                    <p>Junior Web Developer</p>
+                    <p>Gaining skills at TMS</p>
+                    <div>
+                       <a href="#">
+                           <i class="fa fa-facebook"></i>
+                       </a>
+                       <a href="#">
+                           <i class="fa fa-twitter"></i>
+                       </a>
+                       <a href="#">
+                           <i class="fa fa-behance"></i>
+                       </a>
+                       <a href="#">
+                           <i class="fa fa-instagram"></i>
+                       </a>
+                       <a href="#">
+                           <i class="fa fa-dribbble"></i>
+                       </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="preMain">
+                <div class="preMainLeft">
+                    <div class="preMainLeftBackground"></div>
+                </div>
+                <div class="preMainRight">
+                   <div class="preMainRightContent">
+                      
+                        <div class="trendButton">
+                            <a href="#">travel</a>
+                        </div>
+                         
+                        <h2>New Year’s Eve: Fab Finds.</h2>
+                        <p>Maecenas suscipit luctus ex, at tempor dui luctus nec. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut hendrerit tristique lacus lacinia mattis. Mauris odio libero, sollicitudin vel hendrerit quis....</p>
+                        <div class="contReadingButton">
+                            <a href="#">continue reading</a>
+                        </div>
+                   </div>
+                    <div class="premainScrollBar">
+                        <div class="premainScrollControl">
+                            <div><a id="scrollBarLeft" href="#"><span class="fa fa-angle-left"></span></a></div>
+                            <div class="premainScrollContent">
+                                <div class="preMainScrollItem"><a href="#"><img alt="" src="img/preMainSlider/fashion-01.jpg"></a></div>
+                                <div class="preMainScrollItem"><a href="#"><img alt="" src="img/preMainSlider/fashion-02.jpg"></a></div>
+                                <div class="preMainScrollItem"><a href="#"><img alt="" src="img/preMainSlider/fashion-03.jpg"></a></div>
+                                <div class="preMainScrollItem"><a href="#"><img alt="" src="img/preMainSlider/fashion-04.jpg"></a></div>
+                            </div>
+                            <div><a id="scrollBarRight" href="#"><span class="fa fa-angle-right"></span></a></div>
+                        </div>
+                    </div>
+                       
+                </div>
+            </div>
+            <div class="realMain">
+                <div class="realMainEntry realMainFirstRow">
+                    <div class="realMainBckdImg bckdOne"></div>
+                    <div class="realMainContentEntry">
+                        <div class="rmContentZone">
+                            <div class="contHeader">
+                               
+                                    <div class="trendButton"><a href="#">fashion</a></div>
+                               
+                               <h2><a href="#">Perfect for fashion Blog.</a></h2> 
+                               <div class="metaDate">
+                                   <div class="metaEmpty"></div>
+                                   <div class="metaPostDate">
+                                       <span class="entryDate">August 31, 2017</span>
+                                       <span class="divider">/</span>
+                                       <span class="vcard"> By: <a href="#">Alex</a></span>
+                                       
+                                   </div>
+                                   <div class="metaEmpty"></div>
+                               </div>
+                               <p>Donec eros purus, molestie eget dui ut, malesuada accumsan dolor. Phasellus maximus metus at consectetur ullamcorper. Etiam tempor sagittis eros, et semper sem pulvinar at. Proin semper dapibus metus, sed ornare leo porttitor sed...</p>
+                                   
+                            </div>
+                            <div class="contFooter">
+                                <div class="contReadingButton">
+                                    <a href="#">continue reading</a>
+                                </div>
+                                <div class="contFooterShare">
+                                    <div class="contFooterComment1"><a href="#">55 Comments</a></div>
+                                    <div class="contFooterShareIcons">
+                                        <a href="#">
+                                           <i class="fa fa-facebook"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-google-plus"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-dribbble"></i>
+                                        </a>
+                                    </div>
+                                    <div class="contFooterComment2"><a href="#">50 Views</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="realMainEntry realMainSecondRow">
+                    <div class="realMainContentEntry">
+                        <div class="rmContentZone">
+                            <div class="contHeader">
+                               
+                                    <div class="trendButton"><a href="#">fashion</a></div>
+                               
+                               <h2><a href="#">The Perfect Turtleneck.</a></h2> 
+                               <div class="metaDate">
+                                   <div class="metaEmpty"></div>
+                                   <div class="metaPostDate">
+                                       <span class="entryDate">August 94, 2017</span>
+                                       <span class="divider">/</span>
+                                       <span class="vcard"> By: <a href="#">Alex</a></span>
+                                       
+                                   </div>
+                                   <div class="metaEmpty"></div>
+                               </div>
+                               <p>Gregor then turned to look out the window at the dull weather. Drops of rain could be heard hitting this an pane, which made him feel quite sad. How about if I sleep a little bit longer and forget all this nonsense ad.....</p>
+                                   
+                            </div>
+                            <div class="contFooter">
+                                <div class="contReadingButton">
+                                    <a href="#">continue reading</a>
+                                </div>
+                                <div class="contFooterShare">
+                                    <div class="contFooterComment1"><a href="#">55 Comments</a></div>
+                                    <div class="contFooterShareIcons">
+                                        <a href="#">
+                                           <i class="fa fa-facebook"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-google-plus"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-dribbble"></i>
+                                        </a>
+                                    </div>
+                                    <div class="contFooterComment2"><a href="#">50 Views</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="realMainBckdImg bckdTwo"></div>
+                </div>
+                <div class="realMainEntry realMainFirstRow">
+                    <div class="realMainBckdImg bckdThree"></div>
+                    <div class="realMainContentEntry">
+                        <div class="rmContentZone">
+                            <div class="contHeader">
+                                    <div class="trendButton"><a href="#">fashion</a></div>            
+                               <h2><a href="#">Indulgence announcing.</a></h2> 
+                               <div class="metaDate">
+                                   <div class="metaEmpty"></div>
+                                   <div class="metaPostDate">
+                                       <span class="entryDate">August 31, 2017</span>
+                                       <span class="divider">/</span>
+                                       <span class="vcard"> By: <a href="#">Alex</a></span>
+                                       
+                                   </div>
+                                   <div class="metaEmpty"></div>
+                               </div>
+                               <p>Out believe has request not how comfort evident. Up delight cousins we feeling minutes. Genius has looked end piqued spring. Down has rose feel find man. Learning day desirous informed expenses material returned six....</p>
+                                   
+                            </div>
+                            <div class="contFooter">
+                                <div class="contReadingButton">
+                                    <a href="#">continue reading</a>
+                                </div>
+                                <div class="contFooterShare">
+                                    <div class="contFooterComment1"><a href="#">55 Comments</a></div>
+                                    <div class="contFooterShareIcons">
+                                        <a href="#">
+                                           <i class="fa fa-facebook"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-google-plus"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-dribbble"></i>
+                                        </a>
+                                    </div>
+                                    <div class="contFooterComment2"><a href="#">50 Views</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="realMainEntry realMainSecondRow">
+                    <div class="realMainContentEntry">
+                        <div class="rmContentZone">
+                            <div class="contHeader">
+                               
+                                    <div class="trendButton"><a href="#">beauty</a></div>
+                               
+                               <h2><a href="#">Received shutters expences.</a></h2> 
+                               <div class="metaDate">
+                                   <div class="metaEmpty"></div>
+                                   <div class="metaPostDate">
+                                       <span class="entryDate">August 94, 2017</span>
+                                       <span class="divider">/</span>
+                                       <span class="vcard"> By: <a href="#">Alex</a></span>
+                                       
+                                   </div>
+                                   <div class="metaEmpty"></div>
+                               </div>
+                               <p>That know ask case sex ham dear her spot. Weddings followed the all marianne nor whatever settling. Perhaps six prudent several her had offence. Did had way law dinner square tastes. Recommend concealed yet....</p>
+                                   
+                            </div>
+                            <div class="contFooter">
+                                <div class="contReadingButton">
+                                    <a href="#">continue reading</a>
+                                </div>
+                                <div class="contFooterShare">
+                                    <div class="contFooterComment1"><a href="#">55 Comments</a></div>
+                                    <div class="contFooterShareIcons">
+                                        <a href="#">
+                                           <i class="fa fa-facebook"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-google-plus"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-dribbble"></i>
+                                        </a>
+                                    </div>
+                                    <div class="contFooterComment2"><a href="#">50 Views</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="realMainBckdImg bckdFour">
+                        <div class="overlay">
+                            <span class="fa fa-play"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="realMainEntry realMainFirstRow">
+                    <div class="realMainBckdImg bckdFive"></div>
+                    <div class="realMainContentEntry">
+                        <div class="rmContentZone">
+                            <div class="contHeader">
+                               
+                                    <div class="trendButton"><a href="#">lifestyle</a></div>
+                               
+                               <h2><a href="#">Pianoforte solicitude so.</a></h2> 
+                               <div class="metaDate">
+                                   <div class="metaEmpty"></div>
+                                   <div class="metaPostDate">
+                                       <span class="entryDate">August 31, 2017</span>
+                                       <span class="divider">/</span>
+                                       <span class="vcard"> By: <a href="#">Alex</a></span>
+                                       
+                                   </div>
+                                   <div class="metaEmpty"></div>
+                               </div>
+                               <p>Far curiosity incommode now led smallness allowance. Favour bed assure son things yet. She consisted consulted elsewhere happiness disposing household any old the. Widow downs you new shade drift hopes small. So otherwise commanded....</p>
+                                   
+                            </div>
+                            <div class="contFooter">
+                                <div class="contReadingButton">
+                                    <a href="#">continue reading</a>
+                                </div>
+                                <div class="contFooterShare">
+                                    <div class="contFooterComment1"><a href="#">55 Comments</a></div>
+                                    <div class="contFooterShareIcons">
+                                        <a href="#">
+                                           <i class="fa fa-facebook"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-google-plus"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-dribbble"></i>
+                                        </a>
+                                    </div>
+                                    <div class="contFooterComment2"><a href="#">50 Views</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="realMainEntry realMainSecondRow">
+                    <div class="realMainContentEntry">
+                        <div class="rmContentZone">
+                            <div class="contHeader">
+                               
+                                    <div class="trendButton"><a href="#">beauty</a></div>
+                               
+                               <h2><a href="#">New the her nor case.</a></h2> 
+                               <div class="metaDate">
+                                   <div class="metaEmpty"></div>
+                                   <div class="metaPostDate">
+                                       <span class="entryDate">August 94, 2017</span>
+                                       <span class="divider">/</span>
+                                       <span class="vcard"> By: <a href="#">Alex</a></span>
+                                       
+                                   </div>
+                                   <div class="metaEmpty"></div>
+                               </div>
+                               <p>Up branch to easily missed by do. Admiration considered acceptance too led one melancholy expression. Are will took form the nor true. Winding enjoyed minuter her letters evident use eat colonel. He attacks observe.....</p>
+                                   
+                            </div>
+                            <div class="contFooter">
+                                <div class="contReadingButton">
+                                    <a href="#">continue reading</a>
+                                </div>
+                                <div class="contFooterShare">
+                                    <div class="contFooterComment1"><a href="#">55 Comments</a></div>
+                                    <div class="contFooterShareIcons">
+                                        <a href="#">
+                                           <i class="fa fa-facebook"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-twitter"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-google-plus"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-instagram"></i>
+                                        </a>
+                                        <a href="#">
+                                           <i class="fa fa-dribbble"></i>
+                                        </a>
+                                    </div>
+                                    <div class="contFooterComment2"><a href="#">50 Views</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="realMainBckdImg bckdSix"></div>
+                </div>
+                
+<!-- CONTENT PAGINATION - buttons 'previous 1 2 3 4 ... 14 next'-->
+               
+                <nav class="contentNav">
+                    <ul>
+                        <li class="navPrevious"><a href="#"><span class="fa fa-angle-double-left"></span>previous</a></li>
+                        <li class="navButton navActive"><a href="#">1</a></li>
+                        <li class="navButton"><a href="#">2</a></li>
+                        <li class="navButton"><a href="#">3</a></li>
+                        <li class="navButton"><a href="#">4</a></li>
+                        <li class="dotDivider"><span>...</span></li>
+                        <li class="navButton"><a href="#">14</a></li>
+                        <li class="navNext"><a href="#">next<span class="fa fa-angle-double-right"></span></a></li>
+                    </ul>
+                </nav>
+            </div>
+        </main>
+        <footer>
+            <div class="footerContainer">
+                <div class="footerFirstRow">
+                    <div class="firstRowContainer">   
+                       <div class="footerEmail">
+                           <span>newsletter</span>
+                           <div id="footerInput">
+                              <input type="email" placeholder="Enter Your Email">
+                               <button type="button">Send</button></div>
+                       </div>
+                       <div class="footerSocial">
+                           <p>Social Profile</p>
+                           <div id="footerSocials">
+                               <a class="footerSocialIcons" href="#">   <span><i class="fa fa-facebook"></i></span></a>
+                               <a class="footerSocialIcons" href="#"><span><i class="fa fa-twitter"></i></span></a>
+                               <a class="footerSocialIcons" href="#"><span><i class="fa fa-google-plus"></i></span></a>
+                               <a class="footerSocialIcons" href="#"><span><i class="fa fa-pinterest-p"></i></span></a>
+                               <a class="footerSocialIcons" href="#"><span><i class="fa fa-instagram"></i></span></a>
+                            </div>
+                       </div>
+                    </div>                       
+                </div>
+                <div class="footerSecondRow">
+                    <div class="secondRowContainer">
+                        <div id="footerSR1">
+                            <div class="secondRowHeading">
+                                <div class="gradientLine"></div>
+                                <span class="headingLine"></span>
+                                <h5>About Me</h5>
+                                <span class="headingLine"></span>
+                                <div class="gradientLine"></div>
+                            </div>
+                            <div id="aboutMePhoto"><img alt="" src="img/about-me.jpg"></div>
+                            <p>Lorem ipsum dolor sit amet Cras vitae nibh nisl. Cras etwmaur is egettobsi lorem ultricies ferme ntutbm a in diam.</p>
+                        </div>
+                        <div id="footerSR2">
+                            <div class="secondRowHeading">
+                                <div class="gradientLine"></div>
+                                <span class="headingLine"></span>
+                                <h5>Flicker Images</h5>
+                                <span class="headingLine"></span>
+                                <div class="gradientLine"></div>
+                            </div>
+                        </div>
+                        <div id="footerSR3">
+                            <div class="secondRowHeading">
+                                <div class="gradientLine"></div>
+                                <span class="headingLine"></span>
+                                <h5>Recent Post</h5>
+                                <span class="headingLine"></span>
+                                <div class="gradientLine"></div>
+                            </div>
+                            <div id="recentPostContent">
+                                <ul>
+                                    <li><a href="#">On two wheels is better than four</a></li>
+                                    <div class="listDivider"></div> 
+                                    <li><a href="#">A beautiful landscape from my last trip.</a></li>
+                                    <div class="listDivider"></div>
+                                    <li><a href="#">Today I started to write new</a></li>
+                                    <div class="listDivider"></div>
+                                    <li><a href="#">On two wheels is better than four</a></li>
+                                    <div class="listDivider"></div>
+                                    <li><a href="#">Today I started to write new</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="footerSR4">
+                            <div class="secondRowHeading">
+                                <div class="gradientLine"></div>
+                                <span class="headingLine"></span>
+                                <h5>Recent Works</h5>
+                                <span class="headingLine"></span>
+                                <div class="gradientLine"></div>
+                            </div>
+
+                            <div class="recentWorks">
+                                <div id="rwContainer">
+                                    <a href=""><img alt="" src="img/recentWorks/1.jpg" width="79" height="75"></a>
+                                    <a href=""><img alt="" src="img/recentWorks/2.jpg" width="79" height="75"></a>
+                                    <a href=""><img alt="" src="img/recentWorks/3.jpg" width="79" height="75"></a>
+                                    <a href=""><img alt="" src="img/recentWorks/4.jpg" width="79" height="75"></a>
+                                    <a href=""><img alt="" src="img/recentWorks/5.jpg" width="79" height="75"></a>
+                                    <a href=""><img alt="" src="img/recentWorks/6.jpg" width="79" height="75"></a>
+                                    <a href=""><img alt="" src="img/recentWorks/7.jpg" width="79" height="75"></a>
+                                    <a href=""><img alt="" src="img/recentWorks/8.jpg" width="79" height="75"></a>
+                                    <a href=""><img alt="" src="img/recentWorks/9.jpg" width="79" height="75"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footerLastRow">
+                    <div class="lastRowHeader">
+                        <span class="headingLine"></span>
+                        <h5>Instagram</h5>
+                        <span class="headingLine"></span>
+                    </div>
+                    <div class="instaFeed">
+                        <div class="instaItem"><a href="https://www.instagram.com/p/BBSfSg9iOFz/" target="_blank"><img alt="" src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12568208_576076162544984_2060135731_n.jpg"></a></div>
+                        <div class="instaItem"><a href="https://www.instagram.com/p/BBSfEubiOFb/" target="_blank"><img alt="" src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12424483_946581225433930_511196950_n.jpg"></a></div>
+                        <div class="instaItem"><a href="https://www.instagram.com/p/BBSe-65COFT/" target="_blank"><img alt="" src="https://scontent.cdninstagram.com/t51.2885-15/s640x640/sh0.08/e35/12545535_1701142953442898_258751053_n.jpg"></a></div>
+                        <div class="instaItem"><a href="https://www.instagram.com/p/-yPp2siOHI/" target="_blank"><img alt="" src="https://scontent.cdninstagram.com/t51.2885-15/e35/12269852_1669247366625309_1708088717_n.jpg"></a></div>
+                        <div class="instaItem"><a href="https://www.instagram.com/p/-yPVYGiOG0/" target="_blank"><img alt="" src="https://scontent.cdninstagram.com/t51.2885-15/e35/12269982_1037367806307806_1756564417_n.jpg"></a></div>
+                        <div class="instaItem"><a href="https://www.instagram.com/p/-yPIjaiOGh/" target="_blank"><img alt="" src="https://scontent.cdninstagram.com/t51.2885-15/e35/12256842_513735655467708_1963367890_n.jpg"></a></div>
+                        <div class="instaItem"><a href="https://www.instagram.com/p/-yO633COGX/" target="_blank"><img alt="" src="https://scontent.cdninstagram.com/t51.2885-15/e35/12277361_1664232597199202_1709501629_n.jpg"></a></div>
+                        <div class="instaItem"><a href="https://www.instagram.com/p/-yO1HhCOGR/" target="_blank"><img alt="" src="https://scontent.cdninstagram.com/t51.2885-15/e35/12269765_1531169560535058_1119509703_n.jpg"></a></div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright© 2015 Softhopper. All right reserved.</p>
+            </div>
+        </footer>    
+    </div>
+
+</body>
+
+
+<!--   !!!   All jQuery code is written manually (no copy-paste) by me in case of understanding JS while in process :)   !!!   -->
+
+<!--   !!!   Test jQuery workability   !!!   -->
+<!--
+<script>
+    $(function() {
+        var testOne = $(".navNext");
+        testOne.click(function() {
+            alert("Success");
+        });
+    });
+    </script>
+-->
+
+
+<!--   !!! Pagination Active Button Disable Action !!!   -->
+<script>
+    $(function() {
+        var pAct = $(".navActive");
+        pAct.click(function(event) {
+            event.preventDefault();
+            alert("Default Action of an active button prevented");
+        });
+    })
+    </script>
+    
+<!--   !!! OnTop Button !!!   -->
+   
+<script>
+    $(function() {
+     
+            $("body").append(" <a href='#ontop' id='topButton' class='topbtn btnHide'><span class='fa fa-angle-up'></span></a> "); // Adding the button itself after 'body' without writing it in HTML
+            var $scrolltop = $("#topButton"); // Setting variable for button
+                    
+            $(window).on('scroll', function() {
+                if ($(this).scrollTop() > $(this).height()) {
+                    $scrolltop.addClass('btnShow').removeClass('btnHide');
+                } else {
+                    $scrolltop.addClass('btnHide').removeClass('btnShow');
+                }
+            }); // Changing button's class on scroll
+        
+        // I've tried to make this based on source code example, but it wouldn't work (scrolled immediately). This version is based on example provided by W3Schools.
+        
+        var otk = $("#topButton")
+        otk.on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $("html, body").animate({
+                        scrollTop: $(hash).offset().top
+                    }, 500, function(){
+                        window.location.hash = hash;
+                    });
+                } //end IF section
+            });
+        });       
+        
+    </script>
+    
+<!--   !!! Dropdown Menu !!!   -->
+
+<script>
+
+    $(function() {
+        var papa = $(".db1");
+        var mama = $(".dc1");
+        papa.hover(function() {
+            mama.slideDown(500);
+        }, function() {
+            mama.slideUp(100);
+        });
+    })
+    $(function() {
+        var papa2 = $(".db2");
+        var mama2 = $(".dc2");
+        papa2.hover(function() {
+            mama2.slideDown(500);
+            mama.css("display", "flex");
+        }, function() {
+            mama2.slideUp(100);
+            mama.css("display", "none");
+        });
+    })
+</script>
+     
+<!--        !!! Starting alert !!!   -->
+     
+     <script>
+        $(function() {
+            alert("Я нахожусь в процессе реализации выпадающих меню через jQuery, и поскольку процесс ещё не завершен, меню подглючивает. Сейчас активен пункт Features, чтобы его скрыть, проведите мышью мимо него (выполните ховер). Приношу извинения за временные неудобства :)")
+        })
+    </script>
+      
+</html>

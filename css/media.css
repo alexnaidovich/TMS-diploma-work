@@ -1,0 +1,317 @@
+@media screen and (max-width: 960px) {
+
+/*
+    * {
+        font-size: 2em;
+    }
+*/
+    .fa {
+        font-size: 1.5em;
+    }
+    .headerTop {
+        display: none; /*HIDING MAIN DESKTOP HEADER-TOP (search, socilas)*/
+    }
+    .headerTopMobile {
+        display: flex;
+    }
+    .rambleLogo {
+        border-bottom: 0;
+    }
+    .rambleBox {
+        width: 100%;
+        border: 0;
+        height: 259px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+    .rambleMenu {
+        display: none;
+    }
+    .avatarBox {
+        display: none;
+    }
+    .mobileSocials {
+        display: flex;
+    }
+    .preMain {
+        flex-direction: column;
+    }
+    .preMainLeft, .preMainRight {
+        width: 100%;
+    }
+    .preMainRight p {
+        font-size: 1.25em;
+        line-height: 1.5em;
+    }
+    .premainScrollBar {
+        margin-top: 70px;
+        height: 112px;
+    }
+    .premainScrollControl {
+        width: 90%;
+    }
+    .premainScrollContent {
+        max-height: 98%;
+    }
+    .preMainScrollItem > a > img {
+        max-width: 100%;
+        max-height: 108px;
+        height: auto;
+    }
+/*    MAIN*    */
+    .realMain {
+        width: 78%;
+    }
+    .realMainEntry {
+        flex-direction: column;
+    }
+    .realMainContentEntry, .realMainBckdImg {
+        width: 100%;
+    }
+    .rmContentZone {
+        margin-bottom: 60px;
+    }
+    .realMainSecondRow > .realMainContentEntry {
+        order: 2;
+    }
+    .realMainSecondRow > .realMainBckdImg {
+        order: 1;
+    }
+    .contFooterComment {
+        width: 25%;
+    }
+    .contFooterShareIcons {
+        width: 45% !important;
+    }
+    .contFooterShareIcons>a {
+        height: 30px;
+        width: 30px;
+    }
+    
+/*    FOOTER    */
+    
+    .firstRowContainer {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .footerEmail, .footerSocial {
+        width: 100%;
+    }
+    .footerEmail {
+        border-bottom: 1px solid #e1e1e1;  
+        border-right: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footerEmail > div > input {
+        width: 80%;
+    }
+    #footerInput {
+        margin-top: 15px;
+        width: 80%;
+    }
+    .footerSocial {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;    
+    }
+    .footerSocial  p {
+        margin-bottom: 15px;
+    }
+    .footerSocial > div > a {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+        font-size: 15px;
+    }
+    .secondRowContainer {
+        justify-content: center;
+        
+    }
+    .secondRowContainer > div {
+        min-width: 375px;
+        max-width: 375px;
+        align-items: center;
+        margin-bottom: 40px;
+        padding: 0 15px;
+    }
+    #footerSR3 {
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width: 720px) {
+    body {
+        width: auto;
+    }
+    .headerTopMobile {
+        margin-bottom: 10px;
+    }
+    .preMainLeft {
+        width: 100%;
+        min-width: 100%;
+    }
+    .preMainLeftBackground {
+        min-height: 426px !important;
+    }
+    .preMainRightContent div:last-child {
+        width: 184px;
+    }
+    .premainScrollBar {
+        margin-top: 50px;
+    }
+    .preMainScrollItem:nth-child(3) {
+        display: none;
+    }
+    .realMain {
+        width: 100%;
+    }
+    .realMainBckdImg {
+        min-width: 100%;
+        max-height: 426px;
+        background-position: center center;
+    }
+    .realMainContentEntry {
+        min-width: 100%;
+    }
+    .realMainContentEntry h2 {
+        text-align: center;
+    }
+    .navButton, .navButton a, .dotDivider span {
+        display: none;
+    }
+    .contentNav  {
+        width: 90%;
+        justify-content: center;
+    }
+    .contentNav ul {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navPrevious {
+        margin-right: 145px;
+    }
+    .navNext {
+        margin-left: 145px;
+    }
+    
+    .secondRowContainer > div {
+        min-width: 97%;
+        max-width: 97%;
+        box-sizing: border-box;
+    }
+    
+    @media screen and (max-width: 480px) {
+        
+        .fa, .mobileSocials a span {
+            font-size: 1em;
+        }
+        .rambleLogo {
+            transform: scale(.85);
+        }
+        .headerMiddle {
+            margin-top: 0;
+        }
+/*        .trendButton::before {*/
+/*            top: -5px;*/
+/*            bottom: -7px;*/
+/*        }*/
+        .preMainLeftBackground {
+            min-height: 310px !important;
+        }
+        .preMainRight p {
+            font-size: 1.1em;
+            line-height: 1.5em;
+            margin-bottom: 30px;
+        }
+        .contReadingButton > a {
+            font-weight: bold;
+        }
+        .preMainScrollItem:last-child {
+            display: none;
+        }
+        
+        .realMainBckdImg {
+            max-height: 310px;
+        }
+        
+        .contFooter > div:first-child {
+            width: 100%;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            border: 1px solid #95cac5;
+        }
+        .contFooterShare {
+            flex-wrap: wrap;
+            height: 100% !important;
+            border-top: none;
+            border-bottom: none;
+            border: 1px solid #ebebeb;
+            
+        }
+        .contFooterShareIcons > a {
+            width: 25px;
+            height: 25px;
+            margin: 0 5px;
+        }
+        .contFooterComment1, .contFooterComment2 {
+            width: 50%;
+            box-sizing: border-box;
+            height: 48px;
+            border: 1px solid #ebebeb;
+        }
+        .contFooterComment2 {
+            order: 2;
+        }
+        .contFooterShareIcons {
+            order: 3;
+            min-width: 100% !important;
+            height: 56px;
+        }
+        
+        .contentNav ul {
+            display: flex;
+            width: 100%;
+            justify-content: space-between;
+        }
+        .navPrevious {
+            margin-right: auto;
+        }
+        .navNext {
+            margin-left: auto;
+        }
+        
+        .footerEmail, .footerSocial {
+            min-width: 100%;
+        }
+        .footerEmail span, .footerSocial p {
+            margin-right: 0; 
+        }
+        .footerSocial > div > a {
+            width: 35px;
+            height: 35px;
+        }
+        .secondRowHeading {
+            width: 100%;
+        }
+        .secondRowHeading h5 {
+            padding: 9px 15px 4px 15px;
+        }
+    }
+
+    @media screen and (max-width: 360px) {
+        .metaPostDate {
+            width: 60%;
+        }
+        .mobileSearch .closebtn {
+            left: 280px;
+            top: 60px !important;
+        }
+    }
